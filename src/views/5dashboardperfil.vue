@@ -4,7 +4,7 @@
             <div class="dashboardperfil-header">
                 <div class="dashboardperfil-pesquisa">
                     <div class="dashboardperfil-pessquisa">
-                        <img alt="search3963" src="/playground_assets/search3963-yjxd.svg"
+                        <img alt="search3963" src="/playground_assets/search.png"
                             class="dashboardperfil-search" />
                         <span class="dashboardperfil-text">
                             <span>Procure por NFTs, informaçoes dos processos</span>
@@ -12,38 +12,46 @@
                     </div>
                 </div>
                 <div class="dashboardperfil-campainha">
-                    <img alt="bell3963" src="/playground_assets/bell3963-wu2s.svg" class="dashboardperfil-bell" />
+                    <img alt="bell3963" src="/playground_assets/normalbell.png" class="dashboardperfil-bell" />
                 </div>
                 <div class="dashboardperfil-pp">
-                    <img alt="image563963" src="/playground_assets/image563963-plt-200h.png"
+                    <img alt="image563963" src="/playground_assets/profile.png"
                         class="dashboardperfil-image56" />
                 </div>
+
+                <router-link :to="{ name: 'Todos' }">
                 <div class="dashboardperfil-logo">
-                    <img alt="image" src="/playground_assets/logo13963-76co-200h.png" class="dashboardperfil-image" />
+                    <img alt="image" src="/playground_assets/logologo.png" class="dashboardperfil-image" />
                 </div>
+                </router-link>
+
             </div>
+            
+            <router-link :to="{ name: 'Plagiados' }">
             <div class="dashboardperfil-backbutton">
                 <img alt="Ellipse165742"
                     src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/91231227-37f6-4f55-8912-bb6b778b88e1/f9cedd44-36ac-4ee4-810b-5c5c6e703685?org_if_sml=12348"
                     class="dashboardperfil-ellipse16" />
-                <img alt="arrowleft5742" src="/playground_assets/arrowleft5742-k1o.svg"
+                <img alt="arrowleft5742" src="/playground_assets/arrowleft.png"
                     class="dashboardperfil-arrowleft" />
             </div>
+            </router-link>
+
             <div class="dashboardperfil-masterrowtop">
                 <div class="dashboardperfil-nft6">
-                    <img alt="image415742" src="/playground_assets/image415742-elf-500w.png"
+                    <img alt="image415742" src="/playground_assets/bignft.png"
                         class="dashboardperfil-image41" />
                 </div>
                 <div class="dashboardperfil-save">
-                    <img alt="bookmark5742" src="/playground_assets/bookmark5742-s2mn.svg"
+                    <img alt="bookmark5742" src="/playground_assets/save.png"
                         class="dashboardperfil-bookmark" />
                 </div>
                 <div class="dashboardperfil-plagioverificado">
                     <div class="dashboardperfil-frame106">
                         <span class="dashboardperfil-text002">
-                            <span>Plágio verificado</span>
+                            <span style="color:#14A3CF;">Plágio verificado</span>
                         </span>
-                        <img alt="codiconverifiedfilled5742" src="/playground_assets/codiconverifiedfilled5742-in3.svg"
+                        <img alt="codiconverifiedfilled5742" src="/playground_assets/checked.png"
                             class="dashboardperfil-codiconverifiedfilled" />
                     </div>
                     <div class="dashboardperfil-frame107">
@@ -58,7 +66,7 @@
                     <div class="dashboardperfil-line"></div>
                     <div class="dashboardperfil-frame109">
                         <div class="dashboardperfil-frame108">
-                            <img alt="clock5742" src="/playground_assets/clock5742-qt7.svg"
+                            <img alt="clock5742" src="/playground_assets/clock.png"
                                 class="dashboardperfil-clock" />
                             <span class="dashboardperfil-text010">
                                 <span>Última atualização:</span>
@@ -70,7 +78,7 @@
                     </div>
                     <div class="dashboardperfil-frame114">
                         <div class="dashboardperfil-frame112">
-                            <img alt="image385742" src="/playground_assets/image385742-6ims-200h.png"
+                            <img alt="image385742" src="/playground_assets/openseabig.png"
                                 class="dashboardperfil-image38" />
                             <div class="dashboardperfil-frame111">
                                 <span class="dashboardperfil-text014">
@@ -81,10 +89,8 @@
                         </div>
                         <div class="dashboardperfil-frame1141">
                             <div class="dashboardperfil-maskgroup">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-mq6f-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/ethbig.png"
                                     class="dashboardperfil-ellipse13" />
-                                <img alt="image685742" src="/playground_assets/image685742-d1o-200h.png"
-                                    class="dashboardperfil-image68" />
                             </div>
                             <div class="dashboardperfil-frame11101">
                                 <span class="dashboardperfil-text018">
@@ -99,10 +105,8 @@
                     <div class="dashboardperfil-frame119">
                         <div class="dashboardperfil-frame1142">
                             <div class="dashboardperfil-maskgroup01">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-um8h-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/propbig.png"
                                     class="dashboardperfil-ellipse1301" />
-                                <img alt="image695742" src="/playground_assets/image695742-8qnf-200h.png"
-                                    class="dashboardperfil-image69" />
                             </div>
                             <div class="dashboardperfil-frame11102">
                                 <span class="dashboardperfil-text022">
@@ -115,10 +119,9 @@
                         </div>
                         <div class="dashboardperfil-frame115">
                             <div class="dashboardperfil-maskgroup02">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-dtdi-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/atualbig.png"
                                     class="dashboardperfil-ellipse1302" />
-                                <img alt="image705742" src="/playground_assets/image705742-8w4-200h.png"
-                                    class="dashboardperfil-image70" />
+                        
                             </div>
                             <div class="dashboardperfil-frame11103">
                                 <span class="dashboardperfil-text026">
@@ -134,7 +137,7 @@
                 <div class="dashboardperfil-row2detalhes">
                     <div class="dashboardperfil-frame1091">
                         <div class="dashboardperfil-frame1081">
-                            <img alt="alignjustify5742" src="/playground_assets/alignjustify5742-0154i.svg"
+                            <img alt="alignjustify5742" src="/playground_assets/detalhes.png"
                                 class="dashboardperfil-alignjustify" />
                             <span class="dashboardperfil-text030"><span>Detalhes</span></span>
                         </div>
@@ -149,7 +152,7 @@
                                     <span>0x7365523630...</span>
                                 </span>
                             </div>
-                            <img alt="externallink5742" src="/playground_assets/externallink5742-k71v.svg"
+                            <img alt="externallink5742" src="/playground_assets/link.png"
                                 class="dashboardperfil-externallink" />
                         </div>
                         <div class="dashboardperfil-frame113">
@@ -161,7 +164,7 @@
                                     <span>0x7365523630...</span>
                                 </span>
                             </div>
-                            <img alt="externallink5742" src="/playground_assets/externallink5742-tnh0k.svg"
+                            <img alt="externallink5742" src="/playground_assets/link.png"
                                 class="dashboardperfil-externallink1" />
                         </div>
                     </div>
@@ -173,7 +176,7 @@
                     <div class="dashboardperfil-line4"></div>
                     <div class="dashboardperfil-historico-de-vendas">
                         <div class="dashboardperfil-frame1082">
-                            <img alt="shoppingcart5742" src="/playground_assets/shoppingcart5742-v4um.svg"
+                            <img alt="shoppingcart5742" src="/playground_assets/cart.png"
                                 class="dashboardperfil-shoppingcart" />
                             <span class="dashboardperfil-text040">
                                 <span>Histórico de vendas</span>
@@ -183,10 +186,9 @@
                     <div class="dashboardperfil-frame1">
                         <div class="dashboardperfil-frame118">
                             <div class="dashboardperfil-maskgroup03">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-n7vf-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/ethbig.png"
                                     class="dashboardperfil-ellipse1303" />
-                                <img alt="image685742" src="/playground_assets/image685742-08p5-200h.png"
-                                    class="dashboardperfil-image681" />
+
                             </div>
                             <div class="dashboardperfil-frame11106">
                                 <span class="dashboardperfil-text042">
@@ -196,10 +198,9 @@
                         </div>
                         <div class="dashboardperfil-frame116">
                             <div class="dashboardperfil-maskgroup04">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-32vt-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/propbig.png"
                                     class="dashboardperfil-ellipse1304" />
-                                <img alt="image695742" src="/playground_assets/image695742-70d-200h.png"
-                                    class="dashboardperfil-image691" />
+
                             </div>
                             <div class="dashboardperfil-frame11107">
                                 <span class="dashboardperfil-text044"><span>SaintMyd</span></span>
@@ -210,10 +211,9 @@
                         </div>
                         <div class="dashboardperfil-frame117">
                             <div class="dashboardperfil-maskgroup05">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-e5fv-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/atualbig.png"
                                     class="dashboardperfil-ellipse1305" />
-                                <img alt="image705742" src="/playground_assets/image705742-qm2m-200h.png"
-                                    class="dashboardperfil-image701" />
+
                             </div>
                             <div class="dashboardperfil-frame11108">
                                 <span class="dashboardperfil-text048"><span>Chao</span></span>
@@ -224,20 +224,19 @@
                         </div>
                         <div class="dashboardperfil-frame121">
                             <span class="dashboardperfil-text052"><span>30/10/2022</span></span>
-                            <img alt="Ellipse145742" src="/playground_assets/ellipse145742-6j4b-200w.png"
+                            <img alt="Ellipse145742" src="/playground_assets/ponto.png"
                                 class="dashboardperfil-ellipse14" />
                             <span class="dashboardperfil-text054"><span>02:43</span></span>
                         </div>
-                        <img alt="externallink5742" src="/playground_assets/externallink5742-iyz.svg"
+                        <img alt="externallink5742" src="/playground_assets/link.png"
                             class="dashboardperfil-externallink2" />
                     </div>
                     <div class="dashboardperfil-frame2">
                         <div class="dashboardperfil-frame1181">
                             <div class="dashboardperfil-maskgroup06">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-9ibd-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/ethbig.png"
                                     class="dashboardperfil-ellipse1306" />
-                                <img alt="image685742" src="/playground_assets/image685742-qhm7-200h.png"
-                                    class="dashboardperfil-image682" />
+                                
                             </div>
                             <div class="dashboardperfil-frame11109">
                                 <span class="dashboardperfil-text056">
@@ -247,10 +246,9 @@
                         </div>
                         <div class="dashboardperfil-frame1161">
                             <div class="dashboardperfil-maskgroup07">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-wpdo-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/propbig.png"
                                     class="dashboardperfil-ellipse1307" />
-                                <img alt="image695742" src="/playground_assets/image695742-6dob-200h.png"
-                                    class="dashboardperfil-image692" />
+                                
                             </div>
                             <div class="dashboardperfil-frame11110">
                                 <span class="dashboardperfil-text058"><span>SaintMyd</span></span>
@@ -261,10 +259,9 @@
                         </div>
                         <div class="dashboardperfil-frame1171">
                             <div class="dashboardperfil-maskgroup08">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-twt-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/atualbig.png"
                                     class="dashboardperfil-ellipse1308" />
-                                <img alt="image705742" src="/playground_assets/image705742-wnkq-200h.png"
-                                    class="dashboardperfil-image702" />
+                                
                             </div>
                             <div class="dashboardperfil-frame11111">
                                 <span class="dashboardperfil-text062"><span>Chao</span></span>
@@ -275,20 +272,19 @@
                         </div>
                         <div class="dashboardperfil-frame1211">
                             <span class="dashboardperfil-text066"><span>30/10/2022</span></span>
-                            <img alt="Ellipse145742" src="/playground_assets/ellipse145742-sz6y-200w.png"
+                            <img alt="Ellipse145742" src="/playground_assets/ponto.png"
                                 class="dashboardperfil-ellipse141" />
                             <span class="dashboardperfil-text068"><span>02:43</span></span>
                         </div>
-                        <img alt="externallink5742" src="/playground_assets/externallink5742-4wsp.svg"
+                        <img alt="externallink5742" src="/playground_assets/link.png"
                             class="dashboardperfil-externallink3" />
                     </div>
                     <div class="dashboardperfil-frame3">
                         <div class="dashboardperfil-frame1182">
                             <div class="dashboardperfil-maskgroup09">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-mebg-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/ethbig.png"
                                     class="dashboardperfil-ellipse1309" />
-                                <img alt="image685742" src="/playground_assets/image685742-1k5s-200w.png"
-                                    class="dashboardperfil-image683" />
+                               
                             </div>
                             <div class="dashboardperfil-frame11112">
                                 <span class="dashboardperfil-text070">
@@ -298,10 +294,9 @@
                         </div>
                         <div class="dashboardperfil-frame1162">
                             <div class="dashboardperfil-maskgroup10">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-l4jv-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/propbig.png"
                                     class="dashboardperfil-ellipse1310" />
-                                <img alt="image695742" src="/playground_assets/image695742-5rm-200w.png"
-                                    class="dashboardperfil-image693" />
+                               
                             </div>
                             <div class="dashboardperfil-frame11113">
                                 <span class="dashboardperfil-text072"><span>SaintMyd</span></span>
@@ -312,10 +307,9 @@
                         </div>
                         <div class="dashboardperfil-frame1172">
                             <div class="dashboardperfil-maskgroup11">
-                                <img alt="Ellipse135742" src="/playground_assets/ellipse135742-181-200h.png"
+                                <img alt="Ellipse135742" src="/playground_assets/atualbig.png"
                                     class="dashboardperfil-ellipse1311" />
-                                <img alt="image705742" src="/playground_assets/image705742-yihj-200w.png"
-                                    class="dashboardperfil-image703" />
+                                
                             </div>
                             <div class="dashboardperfil-frame11114">
                                 <span class="dashboardperfil-text076"><span>Chao</span></span>
@@ -326,11 +320,11 @@
                         </div>
                         <div class="dashboardperfil-frame1212">
                             <span class="dashboardperfil-text080"><span>30/10/2022</span></span>
-                            <img alt="Ellipse145742" src="/playground_assets/ellipse145742-j2td-200h.png"
+                            <img alt="Ellipse145742" src="/playground_assets/ponto.png"
                                 class="dashboardperfil-ellipse142" />
                             <span class="dashboardperfil-text082"><span>02:43</span></span>
                         </div>
-                        <img alt="externallink5742" src="/playground_assets/externallink5742-tnts.svg"
+                        <img alt="externallink5742" src="/playground_assets/link.png"
                             class="dashboardperfil-externallink4" />
                     </div>
                 </div>
@@ -345,7 +339,7 @@
                     <div class="dashboardperfil-n-f-tplag1">
                         <div class="dashboardperfil-bloco-n-f-t">
                             <div class="dashboardperfil-nft61">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft2.png"
                                     class="dashboardperfil-image74" />
                             </div>
                             <div class="dashboardperfil-nomeeid">
@@ -361,7 +355,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardperfil-frame55">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardperfil-image381" />
                                     <span class="dashboardperfil-text092">
                                         <span>OpenSea</span>
@@ -373,20 +367,18 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardperfil-frame54">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardperfil-image40" />
                                     <span class="dashboardperfil-text096"><span>0.003</span></span>
                                 </div>
                             </div>
                         </div>
-                        <div class="dashboardperfil-novonft">
-                            <span class="dashboardperfil-text098">Novo plágio encontrado</span>
-                        </div>
+
                     </div>
                     <div class="dashboardperfil-n-f-tplag2">
                         <div class="dashboardperfil-bloco-n-f-t1">
                             <div class="dashboardperfil-nft62">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft3.png"
                                     class="dashboardperfil-image741" />
                             </div>
                             <div class="dashboardperfil-nomeeid1">
@@ -402,7 +394,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardperfil-frame551">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardperfil-image382" />
                                     <span class="dashboardperfil-text105">
                                         <span>OpenSea</span>
@@ -414,7 +406,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardperfil-frame541">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardperfil-image401" />
                                     <span class="dashboardperfil-text109"><span>0.003</span></span>
                                 </div>
@@ -424,7 +416,7 @@
                     <div class="dashboardperfil-n-f-tplag3">
                         <div class="dashboardperfil-bloco-n-f-t2">
                             <div class="dashboardperfil-nft63">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft4.png"
                                     class="dashboardperfil-image742" />
                             </div>
                             <div class="dashboardperfil-nomeeid2">
@@ -440,7 +432,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardperfil-frame552">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardperfil-image383" />
                                     <span class="dashboardperfil-text117">
                                         <span>OpenSea</span>
@@ -452,7 +444,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardperfil-frame542">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardperfil-image402" />
                                     <span class="dashboardperfil-text121"><span>0.003</span></span>
                                 </div>
@@ -462,7 +454,7 @@
                     <div class="dashboardperfil-n-f-tplag4">
                         <div class="dashboardperfil-bloco-n-f-t3">
                             <div class="dashboardperfil-nft64">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft5.png"
                                     class="dashboardperfil-image743" />
                             </div>
                             <div class="dashboardperfil-nomeeid3">
@@ -478,7 +470,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardperfil-frame553">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardperfil-image384" />
                                     <span class="dashboardperfil-text129">
                                         <span>OpenSea</span>
@@ -490,7 +482,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardperfil-frame543">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardperfil-image403" />
                                     <span class="dashboardperfil-text133"><span>0.003</span></span>
                                 </div>
@@ -502,7 +494,7 @@
                     <div class="dashboardperfil-n-f-tplag11">
                         <div class="dashboardperfil-bloco-n-f-t4">
                             <div class="dashboardperfil-nft65">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft6.png"
                                     class="dashboardperfil-image744" />
                             </div>
                             <div class="dashboardperfil-nomeeid4">
@@ -518,7 +510,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardperfil-frame554">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardperfil-image385" />
                                     <span class="dashboardperfil-text141">
                                         <span>OpenSea</span>
@@ -530,7 +522,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardperfil-frame544">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardperfil-image404" />
                                     <span class="dashboardperfil-text145"><span>0.003</span></span>
                                 </div>
@@ -540,7 +532,7 @@
                     <div class="dashboardperfil-n-f-tplag21">
                         <div class="dashboardperfil-bloco-n-f-t5">
                             <div class="dashboardperfil-nft66">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft7.png"
                                     class="dashboardperfil-image745" />
                             </div>
                             <div class="dashboardperfil-nomeeid5">
@@ -556,7 +548,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardperfil-frame555">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardperfil-image386" />
                                     <span class="dashboardperfil-text153">
                                         <span>OpenSea</span>
@@ -568,7 +560,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardperfil-frame545">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardperfil-image405" />
                                     <span class="dashboardperfil-text157"><span>0.003</span></span>
                                 </div>
@@ -578,7 +570,7 @@
                     <div class="dashboardperfil-n-f-tplag31">
                         <div class="dashboardperfil-bloco-n-f-t6">
                             <div class="dashboardperfil-nft67">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft8.png"
                                     class="dashboardperfil-image746" />
                             </div>
                             <div class="dashboardperfil-nomeeid6">
@@ -594,7 +586,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardperfil-frame556">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardperfil-image387" />
                                     <span class="dashboardperfil-text165">
                                         <span>OpenSea</span>
@@ -606,7 +598,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardperfil-frame546">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardperfil-image406" />
                                     <span class="dashboardperfil-text169"><span>0.003</span></span>
                                 </div>
@@ -616,7 +608,7 @@
                     <div class="dashboardperfil-n-f-tplag41">
                         <div class="dashboardperfil-bloco-n-f-t7">
                             <div class="dashboardperfil-nft68">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft9.png"
                                     class="dashboardperfil-image747" />
                             </div>
                             <div class="dashboardperfil-nomeeid7">
@@ -632,7 +624,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardperfil-frame557">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardperfil-image388" />
                                     <span class="dashboardperfil-text177">
                                         <span>OpenSea</span>
@@ -644,7 +636,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardperfil-frame547">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardperfil-image407" />
                                     <span class="dashboardperfil-text181"><span>0.003</span></span>
                                 </div>
@@ -661,6 +653,10 @@
 export default {
     name: 'Perfil',
     props: {},
+
+    metaInfo: {
+        title: 'Vidi | Perfil',
+    },
 }
 </script>
 
@@ -877,6 +873,7 @@ export default {
     flex-direction: row;
     justify-content: flex-start;
     background-color: transparent;
+    z-index:1;
 }
 
 .dashboardperfil-image {
@@ -905,6 +902,7 @@ export default {
     flex-direction: row;
     justify-content: flex-start;
     background-color: transparent;
+    z-index:9;
 }
 
 .dashboardperfil-ellipse16 {
@@ -2918,8 +2916,8 @@ export default {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     align-items: flex-start;
     flex-shrink: 0;
-    border-color: #FF5B28;
-    border-width: 3px;
+    border-color: #EFEFEF;
+    border-width: 1px;
     margin-right: 20px;
     border-radius: 16px;
     background-color: var(--dl-color-gray-white);
@@ -2927,11 +2925,9 @@ export default {
 
 .dashboardperfil-bloco-n-f-t {
     top: 10px;
-    left: 0px;
-    right: 0px;
+    left: 7px;
     width: 249px;
     height: 313px;
-    margin: auto;
     display: flex;
     padding: 0;
     position: absolute;
@@ -3027,9 +3023,9 @@ export default {
 }
 
 .dashboardperfil-blocoinformaes {
-    top: 339px;
+    top: 336px;
     left: 0px;
-    right: 0px;
+    right: 7px;
     width: 249px;
     height: 64px;
     margin: auto;

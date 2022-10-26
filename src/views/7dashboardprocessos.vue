@@ -4,7 +4,7 @@
             <div class="dashboardprocessos-header">
                 <div class="dashboardprocessos-pesquisa">
                     <div class="dashboardprocessos-pessquisa">
-                        <img alt="search3963" src="/playground_assets/search3963-yjxd.svg"
+                        <img alt="search3963" src="/playground_assets/search.png"
                             class="dashboardprocessos-search" />
                         <span class="dashboardprocessos-text">
                             <span>Procure por NFTs, informaçoes dos processos</span>
@@ -12,43 +12,54 @@
                     </div>
                 </div>
                 <div class="dashboardprocessos-campainha">
-                    <img alt="bell3963" src="/playground_assets/bell3963-wu2s.svg" class="dashboardprocessos-bell" />
+                    <img alt="bell3963" src="/playground_assets/normalbell.png" class="dashboardprocessos-bell" />
                 </div>
                 <div class="dashboardprocessos-pp">
-                    <img alt="image563963" src="/playground_assets/image563963-plt-200h.png"
+                    <img alt="image563963" src="/playground_assets/profile.png"
                         class="dashboardprocessos-image56" />
                 </div>
             </div>
             <div class="dashboardprocessos-sidebar">
+
+                <router-link :to="{ name: 'Landingpage' }">
                 <div class="dashboardprocessos-logo">
-                    <img alt="image" src="/playground_assets/logo13963-76co-200h.png"
+                    <img alt="image" src="/playground_assets/logologo.png"
                         class="dashboardprocessos-image" />
                 </div>
+                </router-link>
+
                 <div class="dashboardprocessos-line"></div>
                 <div class="dashboardprocessos-abas">
+
+                    <router-link :to="{ name: 'Todos' }">
                     <div class="dashboardprocessos-todososnfts">
                         <div class="dashboardprocessos-todosnfts">
-                            <img alt="grid3963" src="/playground_assets/grid3963-gak8.svg"
+                            <img alt="grid3963" src="/playground_assets/grid.png"
                                 class="dashboardprocessos-grid" />
                             <span class="dashboardprocessos-text002">
                                 <span>Todos os NFTs</span>
                             </span>
                         </div>
                     </div>
+                    </router-link>
+
+                    <router-link :to="{ name: 'Plagiados' }">
                     <div class="dashboardprocessos-nftsplagiados">
                         <div class="dashboardprocessos-word">
-                            <img alt="alerttriangle3963" src="/playground_assets/alerttriangle3963-9wyo.svg"
+                            <img alt="alerttriangle3963" src="/playground_assets/alert.png"
                                 class="dashboardprocessos-alerttriangle" />
                             <span class="dashboardprocessos-text004">NFTs plagiados</span>
                         </div>
                     </div>
+                    </router-link>
+
                     <div class="dashboardprocessos-processos">
-                        <img alt="Rectangle1183963" src="/playground_assets/rectangle1183963-wkzs-200w.png"
+                        <img alt="Rectangle1183963" src="/playground_assets/rectangle.png"
                             class="dashboardprocessos-rectangle118" />
                         <div class="dashboardprocessos-base"></div>
                         <div class="dashboardprocessos-processos1">
                             <div class="dashboardprocessos-processsos">
-                                <img alt="octiconlaw243963" src="/playground_assets/octiconlaw243963-tbw4.svg"
+                                <img alt="octiconlaw243963" src="/playground_assets/orangelaw.png"
                                     class="dashboardprocessos-octiconlaw24" />
                                 <span class="dashboardprocessos-text005">
                                     <span>Processos</span>
@@ -62,14 +73,14 @@
                         <div class="dashboardprocessos-group95">
                             <div class="dashboardprocessos-frame98">
                                 <img alt="fluentwallet32regular3963"
-                                    src="/playground_assets/fluentwallet32regular3963-ypy.svg"
+                                    src="/playground_assets/wallet.png"
                                     class="dashboardprocessos-fluentwallet32regular" />
                                 <span class="dashboardprocessos-text007">
                                     <span>Carteiras</span>
                                 </span>
                             </div>
                         </div>
-                        <img alt="chevrondown3963" src="/playground_assets/chevrondown3963-qrl.svg"
+                        <img alt="chevrondown3963" src="/playground_assets/setabaixo2.png"
                             class="dashboardprocessos-chevrondown" />
                     </div>
                     <div class="dashboardprocessos-carteiras">
@@ -79,7 +90,7 @@
                             </span>
                             <div class="dashboardprocessos-select">
                                 <div class="dashboardprocessos-selecionado">
-                                    <img alt="Vector23963" src="/playground_assets/vector23963-om8.svg"
+                                    <img alt="Vector23963" src="/playground_assets/check1.png"
                                         class="dashboardprocessos-vector2" />
                                 </div>
                             </div>
@@ -88,8 +99,7 @@
                             <span class="dashboardprocessos-text011">CoinbaseWallet</span>
                             <div class="dashboardprocessos-select1">
                                 <div class="dashboardprocessos-selecionado1">
-                                    <img alt="Vector23963" src="/playground_assets/vector23963-om8.svg"
-                                        class="dashboardprocessos-vector21" />
+
                                 </div>
                             </div>
                         </div>
@@ -97,15 +107,14 @@
                             <span class="dashboardprocessos-text012">Rainbow</span>
                             <div class="dashboardprocessos-select2">
                                 <div class="dashboardprocessos-selecionado2">
-                                    <img alt="Vector23963" src="/playground_assets/vector23963-om8.svg"
-                                        class="dashboardprocessos-vector22" />
+
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="dashboardprocessos-edit">
                         <div class="dashboardprocessos-plus">
-                            <img alt="plus3963" src="/playground_assets/plus3963-ntz6.svg"
+                            <img alt="plus3963" src="/playground_assets/plus1.png"
                                 class="dashboardprocessos-plus1" />
                         </div>
                         <span class="dashboardprocessos-text013"><span>Editar</span></span>
@@ -114,18 +123,21 @@
                 <div class="dashboardprocessos-line1"></div>
                 <div class="dashboardprocessos-configuracoes">
                     <div class="dashboardprocessos-settings">
-                        <img alt="settings3963" src="/playground_assets/settings3963-psd.svg"
+                        <img alt="settings3963" src="/playground_assets/settings.png"
                             class="dashboardprocessos-settings1" />
                         <span class="dashboardprocessos-text015">
                             <span>Configurações</span>
                         </span>
                     </div>
+
+                    <router-link :to="{ name: 'Landingpage' }">
                     <div class="dashboardprocessos-sair">
-                        <img alt="logout3963" src="/playground_assets/logout3963-hxge.svg"
+                        <img alt="logout3963" src="/playground_assets/sair.png"
                             class="dashboardprocessos-logout" />
                         <span class="dashboardprocessos-text017"><span>Sair</span></span>
                     </div>
-                    <img alt="Line63963" src="/playground_assets/line63963-xvz.svg" class="dashboardprocessos-line6" />
+                    </router-link>
+
                 </div>
             </div>
             <div class="dashboardprocessos-line2"></div>
@@ -133,7 +145,7 @@
                 <div class="dashboardprocessos-filtross">
                     <div class="dashboardprocessos-framefiltros">
                         <span class="dashboardprocessos-text019"><span>Filtros</span></span>
-                        <img alt="sliders3963" src="/playground_assets/sliders3963-dnjd.svg"
+                        <img alt="sliders3963" src="/playground_assets/filtros.png"
                             class="dashboardprocessos-sliders" />
                     </div>
                 </div>
@@ -144,7 +156,7 @@
                             <span class="dashboardprocessos-text022">
                                 <span>Metamask</span>
                             </span>
-                            <img alt="plus5043" src="/playground_assets/plus5043-8qvg.svg"
+                            <img alt="plus5043" src="/playground_assets/plus.png"
                                 class="dashboardprocessos-plus2" />
                         </div>
                     </div>
@@ -354,6 +366,10 @@
 export default {
     name: 'Processos',
     props: {},
+
+    metaInfo: {
+    title: 'Vidi | Processos',
+    },
 }
 </script>
 

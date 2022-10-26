@@ -15,7 +15,7 @@
       </div>
       <div class="nfts-do-usuario-menu">
         <div class="nfts-do-usuario-boto button">
-          <router-link :to="{ name: 'AnaliseIniciada'}">
+          <router-link :to="{ name: 'Seguro'}">
           <span class="nfts-do-usuario-text04"><span>Comparar NFTs</span></span></router-link>
         </div>
         <div class="nfts-do-usuario-pesquisa input">
@@ -130,7 +130,7 @@ export default {
   },
 
   metaInfo: {
-    title: 'Vidi | NFTs',
+    title: 'Vidi | NFTs Rastreados',
   },
 }
 </script>

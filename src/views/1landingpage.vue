@@ -138,9 +138,11 @@
             </div>
           </div>
         </div>
+        <router-link :to="{ name: 'Todos'}">
         <div class="landingpage-demo1">
           <span class="landingpage-text38">Contratar seguro</span>
         </div>
+        </router-link>
         <img
           alt="image"
           src="/playground_assets/compu.png"

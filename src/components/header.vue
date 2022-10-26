@@ -30,7 +30,7 @@
       </div>
       </router-link>
 
-      <router-link :to="{ name: 'Seguro'}">
+      <router-link :to="{ name: 'Todos'}">
       <div class="header-entrar">
         <span class="header-text6">
           <span>Entrar</span>

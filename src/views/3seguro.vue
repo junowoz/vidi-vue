@@ -67,9 +67,13 @@
                             <img alt="image" src="/playground_assets/notebook.png" class="seguro-compu" />
                         </div>
                     </div>
+
+                    <router-link :to="{ name: 'Todos'}">
                     <div class="seguro-boto">
                         <span class="seguro-text014"><span>Contratar seguro</span></span>
                     </div>
+                    </router-link>
+
                 </div>
             </div>
             <div class="seguro-frases">

@@ -4,7 +4,7 @@
             <div class="dashboardplagiados-header">
                 <div class="dashboardplagiados-pesquisa">
                     <div class="dashboardplagiados-pessquisa">
-                        <img alt="search3963" src="/playground_assets/search3963-yjxd.svg"
+                        <img alt="search3963" src="/playground_assets/search.png"
                             class="dashboardplagiados-search" />
                         <span class="dashboardplagiados-text">
                             <span>Procure por NFTs, informaçoes dos processos</span>
@@ -12,49 +12,61 @@
                     </div>
                 </div>
                 <div class="dashboardplagiados-campainha">
-                    <img alt="bell3963" src="/playground_assets/bell3963-wu2s.svg" class="dashboardplagiados-bell" />
+                    <img alt="bell3963" src="/playground_assets/normalbell.png" class="dashboardplagiados-bell" />
                 </div>
                 <div class="dashboardplagiados-pp">
-                    <img alt="image563963" src="/playground_assets/image563963-plt-200h.png"
+                    <img alt="image563963" src="/playground_assets/profile.png"
                         class="dashboardplagiados-image56" />
                 </div>
             </div>
             <div class="dashboardplagiados-sidebar">
+
+                <router-link :to="{ name: 'Landingpage' }">
                 <div class="dashboardplagiados-logo">
-                    <img alt="image" src="/playground_assets/logo13963-76co-200h.png"
+                    <img alt="image" src="/playground_assets/logologo.png"
                         class="dashboardplagiados-image" />
                 </div>
+                </router-link>
+
                 <div class="dashboardplagiados-abas">
+
+                    <router-link :to="{ name: 'Todos' }">
                     <div class="dashboardplagiados-todososnfts">
                         <div class="dashboardplagiados-todosnfts">
-                            <img alt="grid3963" src="/playground_assets/grid3963-gak8.svg"
+                            <img alt="grid3963" src="/playground_assets/grid.png"
                                 class="dashboardplagiados-grid" />
                             <span class="dashboardplagiados-text002">
                                 <span>Todos os NFTs</span>
                             </span>
                         </div>
                     </div>
+                    </router-link>
+
                     <div class="dashboardplagiados-nftsplagiados">
-                        <img alt="Rectangle1183963" src="/playground_assets/rectangle1183963-wkzs-200w.png"
+                        <img alt="Rectangle1183963" src="/playground_assets/rectangle.png"
                             class="dashboardplagiados-rectangle118" />
                         <div class="dashboardplagiados-base"></div>
                         <div class="dashboardplagiados-word">
-                            <img alt="alerttriangle3963" src="/playground_assets/alerttriangle3963-9wyo.svg"
+                            <img alt="alerttriangle3963" src="/playground_assets/orangealert.png"
                                 class="dashboardplagiados-alerttriangle" />
                             <span class="dashboardplagiados-text004">
                                 <span>NFTs plagiados</span>
                             </span>
                         </div>
                     </div>
+
+                    <router-link :to="{ name: 'Processos' }">
                     <div class="dashboardplagiados-processos">
                         <div class="dashboardplagiados-processsos">
-                            <img alt="octiconlaw243963" src="/playground_assets/octiconlaw243963-tbw4.svg"
+                            <img alt="octiconlaw243963" src="/playground_assets/law2.png"
                                 class="dashboardplagiados-octiconlaw24" />
                             <span class="dashboardplagiados-text006">
                                 <span>Processos</span>
                             </span>
                         </div>
                     </div>
+                    </router-link>
+
                 </div>
                 <div class="dashboardplagiados-line"></div>
                 <div class="dashboardplagiados-filtrocarteiras">
@@ -62,14 +74,14 @@
                         <div class="dashboardplagiados-group95">
                             <div class="dashboardplagiados-frame98">
                                 <img alt="fluentwallet32regular3963"
-                                    src="/playground_assets/fluentwallet32regular3963-ypy.svg"
+                                    src="/playground_assets/wallet.png"
                                     class="dashboardplagiados-fluentwallet32regular" />
                                 <span class="dashboardplagiados-text008">
                                     <span>Carteiras</span>
                                 </span>
                             </div>
                         </div>
-                        <img alt="chevrondown3963" src="/playground_assets/chevrondown3963-qrl.svg"
+                        <img alt="chevrondown3963" src="/playground_assets/setabaixo2.png"
                             class="dashboardplagiados-chevrondown" />
                     </div>
                     <div class="dashboardplagiados-carteiras">
@@ -79,7 +91,7 @@
                             </span>
                             <div class="dashboardplagiados-select">
                                 <div class="dashboardplagiados-selecionado">
-                                    <img alt="Vector23963" src="/playground_assets/vector23963-om8.svg"
+                                    <img alt="Vector23963" src="/playground_assets/check1.png"
                                         class="dashboardplagiados-vector2" />
                                 </div>
                             </div>
@@ -88,8 +100,7 @@
                             <span class="dashboardplagiados-text012">CoinbaseWallet</span>
                             <div class="dashboardplagiados-select1">
                                 <div class="dashboardplagiados-selecionado1">
-                                    <img alt="Vector23963" src="/playground_assets/vector23963-om8.svg"
-                                        class="dashboardplagiados-vector21" />
+
                                 </div>
                             </div>
                         </div>
@@ -97,15 +108,14 @@
                             <span class="dashboardplagiados-text013">Rainbow</span>
                             <div class="dashboardplagiados-select2">
                                 <div class="dashboardplagiados-selecionado2">
-                                    <img alt="Vector23963" src="/playground_assets/vector23963-om8.svg"
-                                        class="dashboardplagiados-vector22" />
+
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="dashboardplagiados-edit">
                         <div class="dashboardplagiados-plus">
-                            <img alt="plus3963" src="/playground_assets/plus3963-ntz6.svg"
+                            <img alt="plus3963" src="/playground_assets/plus1.png"
                                 class="dashboardplagiados-plus1" />
                         </div>
                         <span class="dashboardplagiados-text014"><span>Editar</span></span>
@@ -114,18 +124,21 @@
                 <div class="dashboardplagiados-line1"></div>
                 <div class="dashboardplagiados-configuracoes">
                     <div class="dashboardplagiados-settings">
-                        <img alt="settings3963" src="/playground_assets/settings3963-psd.svg"
+                        <img alt="settings3963" src="/playground_assets/settings.png"
                             class="dashboardplagiados-settings1" />
                         <span class="dashboardplagiados-text016">
                             <span>Configurações</span>
                         </span>
                     </div>
+
+                    <router-link :to="{ name: 'Landingpage' }">
                     <div class="dashboardplagiados-sair">
-                        <img alt="logout3963" src="/playground_assets/logout3963-hxge.svg"
+                        <img alt="logout3963" src="/playground_assets/sair.png"
                             class="dashboardplagiados-logout" />
                         <span class="dashboardplagiados-text018"><span>Sair</span></span>
                     </div>
-                    <img alt="Line63963" src="/playground_assets/line63963-xvz.svg" class="dashboardplagiados-line6" />
+                    </router-link>
+
                 </div>
             </div>
             <div class="dashboardplagiados-line2"></div>
@@ -133,17 +146,17 @@
                 <div class="dashboardplagiados-filtross">
                     <div class="dashboardplagiados-framefiltros">
                         <span class="dashboardplagiados-text020"><span>Filtros</span></span>
-                        <img alt="sliders3963" src="/playground_assets/sliders3963-dnjd.svg"
+                        <img alt="sliders3963" src="/playground_assets/filtros.png"
                             class="dashboardplagiados-sliders" />
                     </div>
                 </div>
                 <div class="dashboardplagiados-filtros2">
                     <div class="dashboardplagiados-framefiltros1">
-                        <img alt="sliders3963" src="/playground_assets/sliders3963-dnjd.svg"
+                        <img alt="sliders3963" src="/playground_assets/square1.png"
                             class="dashboardplagiados-sliders1" />
                     </div>
                     <div class="dashboardplagiados-framefiltros2">
-                        <img alt="sliders3963" src="/playground_assets/sliders3963-dnjd.svg"
+                        <img alt="sliders3963" src="/playground_assets/square2.png"
                             class="dashboardplagiados-sliders2" />
                     </div>
                 </div>
@@ -156,7 +169,7 @@
                             <span class="dashboardplagiados-text024">
                                 <span>Metamask</span>
                             </span>
-                            <img alt="plus5043" src="/playground_assets/plus5043-8qvg.svg"
+                            <img alt="plus5043" src="/playground_assets/plus.png"
                                 class="dashboardplagiados-plus2" />
                         </div>
                     </div>
@@ -166,10 +179,12 @@
             </div>
             <div class="dashboardplagiados-frame101">
                 <div class="dashboardplagiados-top">
+
+                <router-link :to="{ name: 'Perfil'}">
                     <div class="dashboardplagiados-n-f-tplag1">
                         <div class="dashboardplagiados-bloco-n-f-t">
                             <div class="dashboardplagiados-nft6">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft1.png"
                                     class="dashboardplagiados-image74" />
                             </div>
                             <div class="dashboardplagiados-nomeeid">
@@ -185,7 +200,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame55">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardplagiados-image38" />
                                     <span class="dashboardplagiados-text035">
                                         <span>OpenSea</span>
@@ -197,7 +212,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame54">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardplagiados-image40" />
                                     <span class="dashboardplagiados-text039">
                                         <span>0.003</span>
@@ -211,10 +226,12 @@
                             </span>
                         </div>
                     </div>
+                </router-link>
+
                     <div class="dashboardplagiados-n-f-tplag2">
                         <div class="dashboardplagiados-bloco-n-f-t1">
                             <div class="dashboardplagiados-nft61">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft2.png"
                                     class="dashboardplagiados-image741" />
                             </div>
                             <div class="dashboardplagiados-nomeeid1">
@@ -230,7 +247,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame551">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardplagiados-image381" />
                                     <span class="dashboardplagiados-text048">
                                         <span>OpenSea</span>
@@ -242,7 +259,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame541">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardplagiados-image401" />
                                     <span class="dashboardplagiados-text052">
                                         <span>0.003</span>
@@ -254,7 +271,7 @@
                     <div class="dashboardplagiados-n-f-tplag3">
                         <div class="dashboardplagiados-bloco-n-f-t2">
                             <div class="dashboardplagiados-nft62">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft3.png"
                                     class="dashboardplagiados-image742" />
                             </div>
                             <div class="dashboardplagiados-nomeeid2">
@@ -270,7 +287,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame552">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardplagiados-image382" />
                                     <span class="dashboardplagiados-text060">
                                         <span>OpenSea</span>
@@ -282,7 +299,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame542">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardplagiados-image402" />
                                     <span class="dashboardplagiados-text064">
                                         <span>0.003</span>
@@ -294,7 +311,7 @@
                     <div class="dashboardplagiados-n-f-tplag4">
                         <div class="dashboardplagiados-bloco-n-f-t3">
                             <div class="dashboardplagiados-nft63">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft4.png"
                                     class="dashboardplagiados-image743" />
                             </div>
                             <div class="dashboardplagiados-nomeeid3">
@@ -310,7 +327,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame553">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardplagiados-image383" />
                                     <span class="dashboardplagiados-text072">
                                         <span>OpenSea</span>
@@ -322,7 +339,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame543">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardplagiados-image403" />
                                     <span class="dashboardplagiados-text076">
                                         <span>0.003</span>
@@ -336,7 +353,7 @@
                     <div class="dashboardplagiados-n-f-tplag11">
                         <div class="dashboardplagiados-bloco-n-f-t4">
                             <div class="dashboardplagiados-nft64">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft5.png"
                                     class="dashboardplagiados-image744" />
                             </div>
                             <div class="dashboardplagiados-nomeeid4">
@@ -352,7 +369,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame554">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardplagiados-image384" />
                                     <span class="dashboardplagiados-text084">
                                         <span>OpenSea</span>
@@ -364,7 +381,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame544">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardplagiados-image404" />
                                     <span class="dashboardplagiados-text088">
                                         <span>0.003</span>
@@ -376,7 +393,7 @@
                     <div class="dashboardplagiados-n-f-tplag21">
                         <div class="dashboardplagiados-bloco-n-f-t5">
                             <div class="dashboardplagiados-nft65">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft6.png"
                                     class="dashboardplagiados-image745" />
                             </div>
                             <div class="dashboardplagiados-nomeeid5">
@@ -392,7 +409,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame555">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardplagiados-image385" />
                                     <span class="dashboardplagiados-text096">
                                         <span>OpenSea</span>
@@ -404,7 +421,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame545">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardplagiados-image405" />
                                     <span class="dashboardplagiados-text100">
                                         <span>0.003</span>
@@ -416,7 +433,7 @@
                     <div class="dashboardplagiados-n-f-tplag31">
                         <div class="dashboardplagiados-bloco-n-f-t6">
                             <div class="dashboardplagiados-nft66">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft7.png"
                                     class="dashboardplagiados-image746" />
                             </div>
                             <div class="dashboardplagiados-nomeeid6">
@@ -432,7 +449,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame556">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardplagiados-image386" />
                                     <span class="dashboardplagiados-text108">
                                         <span>OpenSea</span>
@@ -444,7 +461,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame546">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardplagiados-image406" />
                                     <span class="dashboardplagiados-text112">
                                         <span>0.003</span>
@@ -456,7 +473,7 @@
                     <div class="dashboardplagiados-n-f-tplag41">
                         <div class="dashboardplagiados-bloco-n-f-t7">
                             <div class="dashboardplagiados-nft67">
-                                <img alt="image743963" src="/playground_assets/image743963-hur-300h.png"
+                                <img alt="image743963" src="/playground_assets/nft8.png"
                                     class="dashboardplagiados-image747" />
                             </div>
                             <div class="dashboardplagiados-nomeeid7">
@@ -472,7 +489,7 @@
                                     <span>Marketplace:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame557">
-                                    <img alt="image383963" src="/playground_assets/image383963-2nb-200h.png"
+                                    <img alt="image383963" src="/playground_assets/opensea.png"
                                         class="dashboardplagiados-image387" />
                                     <span class="dashboardplagiados-text120">
                                         <span>OpenSea</span>
@@ -484,7 +501,7 @@
                                     <span>Valor vendido:</span>
                                 </span>
                                 <div class="dashboardplagiados-frame547">
-                                    <img alt="image403963" src="/playground_assets/image403963-7py-200w.png"
+                                    <img alt="image403963" src="/playground_assets/eth.png"
                                         class="dashboardplagiados-image407" />
                                     <span class="dashboardplagiados-text124">
                                         <span>0.003</span>
@@ -503,6 +520,10 @@
 export default {
     name: 'Plagiados',
     props: {},
+
+    metaInfo: {
+        title: 'Vidi | NFTs plagiados',
+    },
 }
 </script>
 
@@ -1808,7 +1829,7 @@ export default {
 .dashboardplagiados-bloco-n-f-t {
     top: 10px;
     left: 0px;
-    right: 0px;
+    right: 7px;
     width: 249px;
     height: 313px;
     margin: auto;
@@ -1909,7 +1930,7 @@ export default {
 .dashboardplagiados-blocoinformaes {
     top: 339px;
     left: 0px;
-    right: 0px;
+    right: 7px;
     width: 249px;
     height: 64px;
     margin: auto;

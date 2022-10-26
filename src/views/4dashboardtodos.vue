@@ -4,69 +4,84 @@
             <div class="dashboardtodos-header">
                 <div class="dashboardtodos-pesquisa">
                     <div class="dashboardtodos-pessquisa">
-                        <img alt="search3963" src="/playground_assets/search3963-yjxd.svg"
+                        <img alt="search3963" src="/playground_assets/search.png"
                             class="dashboardtodos-search" />
                         <span class="dashboardtodos-text">
                             <span>Procure por NFTs, informaçoes dos processos</span>
                         </span>
                     </div>
                 </div>
+
+                <router-link :to="{ name: 'Perfil'}">
                 <div class="dashboardtodos-campainha">
-                    <img alt="bell3963" src="/playground_assets/bell3963-wu2s.svg" class="dashboardtodos-bell" />
+                    <img alt="bell3963" src="/playground_assets/bell.png" class="dashboardtodos-bell" />
                 </div>
+                </router-link>
+
                 <div class="dashboardtodos-pp">
-                    <img alt="image563963" src="/playground_assets/image563963-plt-200h.png"
+                    <img alt="image563963" src="/playground_assets/profile.png"
                         class="dashboardtodos-image56" />
                 </div>
             </div>
             <div class="dashboardtodos-sidebar">
+
+                <router-link :to="{ name: 'Landingpage'}">
                 <div class="dashboardtodos-logo">
-                    <img alt="image" src="/playground_assets/logo13963-76co-200h.png" class="dashboardtodos-image" />
+                    <img alt="image" src="/playground_assets/logologo.png" class="dashboardtodos-image" />
                 </div>
+                </router-link>
+
                 <div class="dashboardtodos-line"></div>
                 <div class="dashboardtodos-abas">
                     <div class="dashboardtodos-todososnfts">
                         <div class="dashboardtodos-todosnfts">
-                            <img alt="grid3963" src="/playground_assets/grid3963-gak8.svg"
+                            <img alt="grid3963" src="/playground_assets/orangegrid.png"
                                 class="dashboardtodos-grid" />
                             <span class="dashboardtodos-text02">
                                 <span>Todos os NFTs</span>
                             </span>
                         </div>
-                        <img alt="Rectangle1183963" src="/playground_assets/rectangle1183963-wkzs-200w.png"
+                        <img alt="Rectangle1183963" src="/playground_assets/rectangle.png"
                             class="dashboardtodos-rectangle118" />
                         <div class="dashboardtodos-base"></div>
                     </div>
+
+                    <router-link :to="{ name: 'Plagiados' }">
                     <div class="dashboardtodos-nftsplagiados">
                         <div class="dashboardtodos-word">
-                            <img alt="alerttriangle3963" src="/playground_assets/alerttriangle3963-9wyo.svg"
+                            <img alt="alerttriangle3963" src="/playground_assets/alert.png"
                                 class="dashboardtodos-alerttriangle" />
                             <span class="dashboardtodos-text04">
                                 <span>NFTs plagiados</span>
                             </span>
                         </div>
                     </div>
+                    </router-link>
+
+                    <router-link :to="{ name: 'Processos'}">
                     <div class="dashboardtodos-processos">
                         <div class="dashboardtodos-processos1">
                             <div class="dashboardtodos-processsos">
-                                <img alt="octiconlaw243963" src="/playground_assets/octiconlaw243963-tbw4.svg"
+                                <img alt="octiconlaw243963" src="/playground_assets/law2.png"
                                     class="dashboardtodos-octiconlaw24" />
                                 <span class="dashboardtodos-text06"><span>Processos</span></span>
                             </div>
                         </div>
                     </div>
+                    </router-link>
+
                 </div>
                 <div class="dashboardtodos-filtrocarteiras">
                     <div class="dashboardtodos-ini">
                         <div class="dashboardtodos-group95">
                             <div class="dashboardtodos-frame98">
                                 <img alt="fluentwallet32regular3963"
-                                    src="/playground_assets/fluentwallet32regular3963-ypy.svg"
+                                    src="/playground_assets/wallet.png"
                                     class="dashboardtodos-fluentwallet32regular" />
                                 <span class="dashboardtodos-text08"><span>Carteiras</span></span>
                             </div>
                         </div>
-                        <img alt="chevrondown3963" src="/playground_assets/chevrondown3963-qrl.svg"
+                        <img alt="chevrondown3963" src="/playground_assets/setabaixo2.png"
                             class="dashboardtodos-chevrondown" />
                     </div>
                     <div class="dashboardtodos-carteiras">
@@ -74,7 +89,7 @@
                             <span class="dashboardtodos-text10"><span>Metamask</span></span>
                             <div class="dashboardtodos-select">
                                 <div class="dashboardtodos-selecionado">
-                                    <img alt="Vector23963" src="/playground_assets/vector23963-om8.svg"
+                                    <img alt="Vector23963" src="/playground_assets/check1.png"
                                         class="dashboardtodos-vector2" />
                                 </div>
                             </div>
@@ -83,8 +98,7 @@
                             <span class="dashboardtodos-text12">CoinbaseWallet</span>
                             <div class="dashboardtodos-select1">
                                 <div class="dashboardtodos-selecionado1">
-                                    <img alt="Vector23963" src="/playground_assets/vector23963-om8.svg"
-                                        class="dashboardtodos-vector21" />
+
                                 </div>
                             </div>
                         </div>
@@ -92,15 +106,14 @@
                             <span class="dashboardtodos-text13">Rainbow</span>
                             <div class="dashboardtodos-select2">
                                 <div class="dashboardtodos-selecionado2">
-                                    <img alt="Vector23963" src="/playground_assets/vector23963-om8.svg"
-                                        class="dashboardtodos-vector22" />
+
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="dashboardtodos-edit">
                         <div class="dashboardtodos-plus">
-                            <img alt="plus3963" src="/playground_assets/plus3963-ntz6.svg"
+                            <img alt="plus3963" src="/playground_assets/plus1.png"
                                 class="dashboardtodos-plus1" />
                         </div>
                         <span class="dashboardtodos-text14"><span>Editar</span></span>
@@ -109,16 +122,19 @@
                 <div class="dashboardtodos-line1"></div>
                 <div class="dashboardtodos-configuracoes">
                     <div class="dashboardtodos-settings">
-                        <img alt="settings3963" src="/playground_assets/settings3963-psd.svg"
+                        <img alt="settings3963" src="/playground_assets/settings.png"
                             class="dashboardtodos-settings1" />
                         <span class="dashboardtodos-text16"><span>Configurações</span></span>
                     </div>
+
+                    <router-link :to="{ name: 'Landingpage'}">
                     <div class="dashboardtodos-sair">
-                        <img alt="logout3963" src="/playground_assets/logout3963-hxge.svg"
+                        <img alt="logout3963" src="/playground_assets/sair.png"
                             class="dashboardtodos-logout" />
                         <span class="dashboardtodos-text18"><span>Sair</span></span>
                     </div>
-                    <img alt="Line63963" src="/playground_assets/line63963-xvz.svg" class="dashboardtodos-line6" />
+                    </router-link>
+
                 </div>
             </div>
             <div class="dashboardtodos-line2"></div>
@@ -126,17 +142,17 @@
                 <div class="dashboardtodos-filtross">
                     <div class="dashboardtodos-framefiltros">
                         <span class="dashboardtodos-text20"><span>Filtros</span></span>
-                        <img alt="sliders3963" src="/playground_assets/sliders3963-dnjd.svg"
+                        <img alt="sliders3963" src="/playground_assets/filtros.png"
                             class="dashboardtodos-sliders" />
                     </div>
                 </div>
                 <div class="dashboardtodos-filtros2">
                     <div class="dashboardtodos-framefiltros1">
-                        <img alt="sliders3963" src="/playground_assets/sliders3963-dnjd.svg"
+                        <img alt="sliders3963" src="/playground_assets/square1.png"
                             class="dashboardtodos-sliders1" />
                     </div>
                     <div class="dashboardtodos-framefiltros2">
-                        <img alt="sliders3963" src="/playground_assets/sliders3963-dnjd.svg"
+                        <img alt="sliders3963" src="/playground_assets/square2.png"
                             class="dashboardtodos-sliders2" />
                     </div>
                 </div>
@@ -145,7 +161,7 @@
                     <div class="dashboardtodos-metaa">
                         <div class="dashboardtodos-frame103">
                             <span class="dashboardtodos-text23"><span>Metamask</span></span>
-                            <img alt="plus5043" src="/playground_assets/plus5043-8qvg.svg"
+                            <img alt="plus5043" src="/playground_assets/plus.png"
                                 class="dashboardtodos-plus2" />
                         </div>
                     </div>
@@ -156,9 +172,9 @@
             <div class="dashboardtodos-frame101">
                 <div class="dashboardtodos-linha1nft">
                     <div class="dashboardtodos-nft1">
-                        <img alt="image313963" src="/playground_assets/image313963-nun-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft1.png"
                             class="dashboardtodos-image31" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-lpf-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia" />
                         <div class="dashboardtodos-descrio">
                             <span class="dashboardtodos-text28"><span>ETERNALS XYZ</span></span>
@@ -166,9 +182,9 @@
                         </div>
                     </div>
                     <div class="dashboardtodos-nft2">
-                        <img alt="image313963" src="/playground_assets/image313963-l7ttg-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft2.png"
                             class="dashboardtodos-image3101" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-yh7i-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia01" />
                         <div class="dashboardtodos-descrio01">
                             <span class="dashboardtodos-text32">
@@ -178,9 +194,9 @@
                         </div>
                     </div>
                     <div class="dashboardtodos-nft3">
-                        <img alt="image313963" src="/playground_assets/image313963-lm2r-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft3.png"
                             class="dashboardtodos-image3102" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-w7yr-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia02" />
                         <div class="dashboardtodos-descrio02">
                             <span class="dashboardtodos-text36">
@@ -190,9 +206,9 @@
                         </div>
                     </div>
                     <div class="dashboardtodos-nft4">
-                        <img alt="image313963" src="/playground_assets/image313963-y41r-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft4.png"
                             class="dashboardtodos-image3103" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-t5j7-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia03" />
                         <div class="dashboardtodos-descrio03">
                             <span class="dashboardtodos-text40"><span>Aurory</span></span>
@@ -202,9 +218,9 @@
                 </div>
                 <div class="dashboardtodos-linha1nft1">
                     <div class="dashboardtodos-nft11">
-                        <img alt="image313963" src="/playground_assets/image313963-nun-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft5.png"
                             class="dashboardtodos-image3104" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-lpf-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia04" />
                         <div class="dashboardtodos-descrio04">
                             <span class="dashboardtodos-text44"><span>ETERNALS XYZ</span></span>
@@ -212,9 +228,9 @@
                         </div>
                     </div>
                     <div class="dashboardtodos-nft21">
-                        <img alt="image313963" src="/playground_assets/image313963-l7ttg-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft6.png"
                             class="dashboardtodos-image3105" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-yh7i-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia05" />
                         <div class="dashboardtodos-descrio05">
                             <span class="dashboardtodos-text48">
@@ -224,9 +240,9 @@
                         </div>
                     </div>
                     <div class="dashboardtodos-nft31">
-                        <img alt="image313963" src="/playground_assets/image313963-lm2r-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft7.png"
                             class="dashboardtodos-image3106" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-w7yr-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia06" />
                         <div class="dashboardtodos-descrio06">
                             <span class="dashboardtodos-text52">
@@ -236,9 +252,9 @@
                         </div>
                     </div>
                     <div class="dashboardtodos-nft41">
-                        <img alt="image313963" src="/playground_assets/image313963-y41r-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft8.png"
                             class="dashboardtodos-image3107" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-t5j7-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia07" />
                         <div class="dashboardtodos-descrio07">
                             <span class="dashboardtodos-text56"><span>Aurory</span></span>
@@ -248,9 +264,9 @@
                 </div>
                 <div class="dashboardtodos-linha1nft2">
                     <div class="dashboardtodos-nft12">
-                        <img alt="image313963" src="/playground_assets/image313963-nun-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft9.png"
                             class="dashboardtodos-image3108" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-lpf-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia08" />
                         <div class="dashboardtodos-descrio08">
                             <span class="dashboardtodos-text60"><span>ETERNALS XYZ</span></span>
@@ -258,9 +274,9 @@
                         </div>
                     </div>
                     <div class="dashboardtodos-nft22">
-                        <img alt="image313963" src="/playground_assets/image313963-l7ttg-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft10.png"
                             class="dashboardtodos-image3109" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-yh7i-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia09" />
                         <div class="dashboardtodos-descrio09">
                             <span class="dashboardtodos-text64">
@@ -270,9 +286,9 @@
                         </div>
                     </div>
                     <div class="dashboardtodos-nft32">
-                        <img alt="image313963" src="/playground_assets/image313963-lm2r-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft11.png"
                             class="dashboardtodos-image3110" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-w7yr-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia10" />
                         <div class="dashboardtodos-descrio10">
                             <span class="dashboardtodos-text68">
@@ -282,9 +298,9 @@
                         </div>
                     </div>
                     <div class="dashboardtodos-nft42">
-                        <img alt="image313963" src="/playground_assets/image313963-y41r-300h.png"
+                        <img alt="image313963" src="/playground_assets/nft12.png"
                             class="dashboardtodos-image3111" />
-                        <img alt="transparncia3963" src="/playground_assets/transparncia3963-t5j7-200h.png"
+                        <img alt="transparncia3963" src="/playground_assets/sombra.png"
                             class="dashboardtodos-transparncia11" />
                         <div class="dashboardtodos-descrio11">
                             <span class="dashboardtodos-text72"><span>Aurory</span></span>
@@ -301,6 +317,10 @@
 export default {
     name: 'Todos',
     props: {},
+
+    metaInfo: {
+        title: 'Vidi | Todos os NFTs',
+    },
 }
 </script>
 
